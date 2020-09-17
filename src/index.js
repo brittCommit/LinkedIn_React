@@ -22,7 +22,7 @@ function App({lakes}) {
 }
 
 ReactDOM.render(
-  <App />,
+  <App lakes = {lakeList} />,
   document.getElementById('root')
 );
 
